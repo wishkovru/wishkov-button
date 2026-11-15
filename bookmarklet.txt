@@ -1,0 +1,1 @@
+javascript:location.href='https://wishkov.ru/add/?url='+encodeURIComponent(location.href)+'&ref=bookmarklet'

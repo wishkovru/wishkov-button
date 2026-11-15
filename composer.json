@@ -1,0 +1,12 @@
+{
+  "name": "wishkov/button",
+  "description": "Кнопка «В вишлист» для сайта или магазина: одна HTML-ссылка на Вишков, без скриптов и трекеров. Add-to-wishlist button for Wishkov, a free Russian wishlist service. No JS required.",
+  "type": "library",
+  "keywords": ["wishlist", "wish list", "gift list", "add to wishlist button", "вишлист", "wishkov"],
+  "homepage": "https://wishkov.ru/",
+  "license": "MIT",
+  "authors": [{"name": "Вишков", "email": "info@wishkov.ru", "homepage": "https://wishkov.ru/"}],
+  "support": {"email": "info@wishkov.ru", "issues": "https://github.com/wishkovru/wishkov-button/issues", "source": "https://github.com/wishkovru/wishkov-button"},
+  "require": {"php": ">=7.4"},
+  "autoload": {"psr-4": {"Wishkov\\": "php/"}}
+}
