@@ -5,12 +5,13 @@
 уходит ничего, ни запросов, ни скриптов, ни счётчиков.
 
 ## Как подключить
-1. Вставьте разметку из `button.html` туда, где должна быть кнопка.
+1. Вставьте разметку из [`button.html`](https://github.com/wishkovru/wishkov-button/blob/main/button.html) туда, где должна быть кнопка.
 2. Подставьте адрес страницы товара вместо `{{URL}}` (или используйте веб-компонент
-   `<wishkov-button url="…">` из `wishkov-button.js`, либо `WishkovButton::render($url)` в PHP).
+   `<wishkov-button url="…">` из [`wishkov-button.js`](https://github.com/wishkovru/wishkov-button/blob/main/wishkov-button.js), либо `WishkovButton::render($url)`
+   из [`php/WishkovButton.php`](https://github.com/wishkovru/wishkov-button/blob/main/php/WishkovButton.php).
 3. Готово. Два размера, три дизайна: fill, outline, soft, подпись меняется атрибутом `label`.
 
-Готовые варианты кнопки лежат в `button.html` этого репозитория, букмарклет в `bookmarklet.txt`.
+Готовые варианты кнопки лежат в [`button.html`](https://github.com/wishkovru/wishkov-button/blob/main/button.html), букмарклет в [`bookmarklet.txt`](https://github.com/wishkovru/wishkov-button/blob/main/bookmarklet.txt).
 
 ### Веб-компонент
 
@@ -63,5 +64,11 @@ Chrome и Яндекс Браузере, на компьютере и на iPad.
 Wishkov (wishkov.ru) is a free Russian wishlist service: collect wishes in one list, share
 a link, friends reserve gifts without duplicates. This package renders an "Add to wishlist"
 button as a plain HTML link to wishkov.ru. No scripts are loaded from our server.
+
+## Где лежит
+
+- Репозиторий: https://github.com/wishkovru/wishkov-button
+- npm: https://www.npmjs.com/package/wishkov-button (`npm i wishkov-button`)
+- Сайт сервиса: https://wishkov.ru/
 
 Лицензия MIT. Поддержка: https://wishkov.ru/support/, info@wishkov.ru.
